@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DanMacross.iOS", "iOS\DanMa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DanMacross.Droid", "Droid\DanMacross.Droid.csproj", "{00626F49-63A0-4A0A-82F3-B5DCE9488BD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DanMacross.UWP", "DanMacross.UWP\DanMacross.UWP.csproj", "{2B59AB94-5FF2-426E-B4D8-97CB51CDBA2C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DanMacross.UWP", "UWP\DanMacross.UWP.csproj", "{2B59AB94-5FF2-426E-B4D8-97CB51CDBA2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
