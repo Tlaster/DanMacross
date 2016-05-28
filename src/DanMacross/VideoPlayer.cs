@@ -33,5 +33,18 @@ namespace DanMacross
             set { SetValue(IsFullScreenProperty, value); }
         }
 
+
+        public static readonly BindableProperty AutoPlayProperty = BindableProperty.Create(
+            propertyName: "AutoPlay",
+            returnType: typeof(bool),
+            declaringType: typeof(VideoPlayer),
+            defaultValue: false);
+
+        public bool AutoPlay
+        {
+            get { return (bool)GetValue(AutoPlayProperty); }
+            set { SetValue(AutoPlayProperty, value); }
+        }
+
     }
 }

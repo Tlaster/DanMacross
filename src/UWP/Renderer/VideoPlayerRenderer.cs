@@ -4,9 +4,11 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DanMacross;
 using Windows.UI.Xaml.Controls;
 using Xamarin.Forms.Platform.UWP;
 
+[assembly: ExportRenderer(typeof(VideoPlayer), typeof(DanMacross.UWP.Renderer.VideoPlayerRenderer))]
 namespace DanMacross.UWP.Renderer
 {
     public class VideoPlayerRenderer : ViewRenderer<VideoPlayer, MediaElement>
@@ -19,9 +21,12 @@ namespace DanMacross.UWP.Renderer
             if (Control == null)
             {
                 _mediaElement = new MediaElement();
+                _mediaElement.AreTransportControlsEnabled = true;
                 if (Element?.Source != null)
                 {
                     _mediaElement.Source = new Uri(Element.Source);
+                    if (Element.AutoPlay)
+                        _mediaElement.Play();
                 }
                 SetNativeControl(_mediaElement);
             }
@@ -47,6 +52,10 @@ namespace DanMacross.UWP.Renderer
                 case nameof(Element.Source):
                     if (Element?.Source != null)
                         _mediaElement.Source = new Uri(Element.Source);
+                    if (Element.AutoPlay)
+                        _mediaElement.Play();
+                    break;
+                case nameof(Element.AutoPlay):
                     break;
                 default:
                     break;

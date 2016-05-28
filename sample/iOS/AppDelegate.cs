@@ -12,6 +12,7 @@ namespace DanMacrossSample.iOS
 	{
 		public override bool FinishedLaunching (UIApplication app, NSDictionary options)
 		{
+            DanMacross.DanMacrossInit.Init();
 			global::Xamarin.Forms.Forms.Init ();
 
 			LoadApplication (new App ());

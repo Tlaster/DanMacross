@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
@@ -64,6 +65,9 @@ namespace DanMacrossSample.UWP
                 // 将框架放在当前窗口中
                 Window.Current.Content = rootFrame;
             }
+            
+            DanMacross.DanMacrossInit.Init();
+            Xamarin.Forms.Forms.Init(e);
 
             if (e.PrelaunchActivated == false)
             {

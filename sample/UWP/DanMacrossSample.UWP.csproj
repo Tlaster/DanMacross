@@ -127,10 +127,6 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\DanMacross\DanMacross.csproj">
-      <Project>{7e902e31-8023-40f6-ad70-5c3b67341097}</Project>
-      <Name>DanMacross</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\src\UWP\DanMacross.UWP.csproj">
       <Project>{2b59ab94-5ff2-426e-b4d8-97cb51cdba2c}</Project>
       <Name>DanMacross.UWP</Name>

@@ -1,5 +1,5 @@
 ﻿using System;
-
+using DanMacross;
 using Xamarin.Forms;
 
 namespace DanMacrossSample
@@ -8,17 +8,13 @@ namespace DanMacrossSample
 	{
 		public App ()
 		{
-			// The root page of your application
-			MainPage = new ContentPage {
-				Content = new StackLayout {
-					VerticalOptions = LayoutOptions.Center,
-					Children = {
-						new Label {
-							XAlign = TextAlignment.Center,
-							Text = "Welcome to Xamarin Forms!"
-						}
-					}
-				}
+            // The root page of your application
+            MainPage = new ContentPage {
+                Content = new VideoPlayer()
+                {
+                    Source = "https://animate-10012595.file.myqcloud.com/Uchuu%20Patrol%20Luluco/09.mp4",
+                    AutoPlay = true,
+                }
 			};
 		}
 

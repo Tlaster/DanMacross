@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using AVFoundation;
 using AVKit;
+using CoreGraphics;
 using DanMacross;
 using Foundation;
 using UIKit;
@@ -19,29 +20,19 @@ namespace DanMacross.iOS.Renderer
         AVPlayer _player;
 
         AVPlayerLayer _playerLayer;
-        UIButton _playButton;
-        AVPlayerViewController _avPlayerViewController;
 
         protected override void OnElementChanged(ElementChangedEventArgs<VideoPlayer> e)
         {
             base.OnElementChanged(e);
-            var url = new NSUrl(Element.Source);
-            _asset = AVAsset.FromUrl(url);
+            _asset = AVAsset.FromUrl(NSUrl.FromString(Element.Source));
             _playerItem = new AVPlayerItem(_asset);
             _player = new AVPlayer(_playerItem);
-            _avPlayerViewController = new AVPlayerViewController();
-            _avPlayerViewController.Player = _player;
             _playerLayer = AVPlayerLayer.FromPlayer(_player);
-            _player.Play();
-        }
-
-        public override void LayoutSubviews()
-        {
-            base.LayoutSubviews();
-
             _playerLayer.Frame = NativeView.Frame;
-            _avPlayerViewController.View.Frame = NativeView.Frame;
-            NativeView.Layer.AddSublayer(_avPlayerViewController.View.Layer);
+            NativeView.Layer.AddSublayer(_playerLayer);
+            if (Element.AutoPlay)
+                _player.Play();
+            //TODO:AVPlayer not showing
         }
     }
 }
