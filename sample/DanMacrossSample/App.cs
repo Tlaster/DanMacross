@@ -12,7 +12,7 @@ namespace DanMacrossSample
             MainPage = new ContentPage {
                 Content = new VideoPlayer()
                 {
-                    Source = "https://animate-10012595.file.myqcloud.com/Uchuu%20Patrol%20Luluco/09.mp4",
+                    Source = "https://animate-10012595.file.myqcloud.com/Sansha%20Sanyou/08.mp4",
                     AutoPlay = true,
                 }
 			};

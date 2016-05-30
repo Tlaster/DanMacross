@@ -21,23 +21,22 @@ namespace DanMacross.UWP.Renderer
             if (Control == null)
             {
                 _mediaElement = new MediaElement();
-                _mediaElement.AreTransportControlsEnabled = true;
+                _mediaElement.AutoPlay = Element.AutoPlay;
+                //_mediaElement.AreTransportControlsEnabled = true;
                 if (Element?.Source != null)
                 {
                     _mediaElement.Source = new Uri(Element.Source);
-                    if (Element.AutoPlay)
-                        _mediaElement.Play();
                 }
                 SetNativeControl(_mediaElement);
             }
             if (e.OldElement != null)
             {
-                Tapped -= VideoPlayerRenderer_Tapped;
                 _mediaElement.Stop();
+                _mediaElement = null;
             }
             if (e.NewElement != null)
             {
-                Tapped += VideoPlayerRenderer_Tapped;
+                
             }
         }
 
@@ -52,19 +51,26 @@ namespace DanMacross.UWP.Renderer
                 case nameof(Element.Source):
                     if (Element?.Source != null)
                         _mediaElement.Source = new Uri(Element.Source);
-                    if (Element.AutoPlay)
-                        _mediaElement.Play();
                     break;
                 case nameof(Element.AutoPlay):
+                    _mediaElement.AutoPlay = Element.AutoPlay;
+                    break;
+                case nameof(Element.Position):
+                    _mediaElement.Position = Element.Position;
+                    break;
+                //case nameof(Element.Width):
+                //    _mediaElement.Width = Element.Width;
+                //    break;
+                //case nameof(Element.Height):
+                //    _mediaElement.Height = Element.Height;
+                //    break;
+                case nameof(Element.Volume):
+                    _mediaElement.Volume = Element.Volume;
                     break;
                 default:
                     break;
             }
         }
-
-        private void VideoPlayerRenderer_Tapped(object sender, Windows.UI.Xaml.Input.TappedRoutedEventArgs e)
-        {
-
-        }
+        
     }
 }

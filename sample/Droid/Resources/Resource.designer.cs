@@ -745,6 +745,7 @@ namespace DanMacrossSample.Droid
 			global::DanMacross.Droid.Resource.Id.activity_chooser_view_content = global::DanMacrossSample.Droid.Resource.Id.activity_chooser_view_content;
 			global::DanMacross.Droid.Resource.Id.alertTitle = global::DanMacrossSample.Droid.Resource.Id.alertTitle;
 			global::DanMacross.Droid.Resource.Id.always = global::DanMacrossSample.Droid.Resource.Id.always;
+			global::DanMacross.Droid.Resource.Id.audio_controls = global::DanMacrossSample.Droid.Resource.Id.audio_controls;
 			global::DanMacross.Droid.Resource.Id.beginning = global::DanMacrossSample.Droid.Resource.Id.beginning;
 			global::DanMacross.Droid.Resource.Id.bottom = global::DanMacrossSample.Droid.Resource.Id.bottom;
 			global::DanMacross.Droid.Resource.Id.buttonPanel = global::DanMacrossSample.Droid.Resource.Id.buttonPanel;
@@ -758,8 +759,10 @@ namespace DanMacrossSample.Droid
 			global::DanMacross.Droid.Resource.Id.clip_vertical = global::DanMacrossSample.Droid.Resource.Id.clip_vertical;
 			global::DanMacross.Droid.Resource.Id.collapseActionView = global::DanMacrossSample.Droid.Resource.Id.collapseActionView;
 			global::DanMacross.Droid.Resource.Id.contentPanel = global::DanMacrossSample.Droid.Resource.Id.contentPanel;
+			global::DanMacross.Droid.Resource.Id.controls_root = global::DanMacrossSample.Droid.Resource.Id.controls_root;
 			global::DanMacross.Droid.Resource.Id.custom = global::DanMacrossSample.Droid.Resource.Id.custom;
 			global::DanMacross.Droid.Resource.Id.customPanel = global::DanMacrossSample.Droid.Resource.Id.customPanel;
+			global::DanMacross.Droid.Resource.Id.debug_text_view = global::DanMacrossSample.Droid.Resource.Id.debug_text_view;
 			global::DanMacross.Droid.Resource.Id.decor_content_parent = global::DanMacrossSample.Droid.Resource.Id.decor_content_parent;
 			global::DanMacross.Droid.Resource.Id.default_activity_button = global::DanMacrossSample.Droid.Resource.Id.default_activity_button;
 			global::DanMacross.Droid.Resource.Id.design_bottom_sheet = global::DanMacrossSample.Droid.Resource.Id.design_bottom_sheet;
@@ -827,10 +830,13 @@ namespace DanMacrossSample.Droid
 			global::DanMacross.Droid.Resource.Id.parallax = global::DanMacrossSample.Droid.Resource.Id.parallax;
 			global::DanMacross.Droid.Resource.Id.parentPanel = global::DanMacrossSample.Droid.Resource.Id.parentPanel;
 			global::DanMacross.Droid.Resource.Id.pin = global::DanMacrossSample.Droid.Resource.Id.pin;
+			global::DanMacross.Droid.Resource.Id.player_state_view = global::DanMacrossSample.Droid.Resource.Id.player_state_view;
 			global::DanMacross.Droid.Resource.Id.progress_circular = global::DanMacrossSample.Droid.Resource.Id.progress_circular;
 			global::DanMacross.Droid.Resource.Id.progress_horizontal = global::DanMacrossSample.Droid.Resource.Id.progress_horizontal;
 			global::DanMacross.Droid.Resource.Id.radio = global::DanMacrossSample.Droid.Resource.Id.radio;
+			global::DanMacross.Droid.Resource.Id.retry_button = global::DanMacrossSample.Droid.Resource.Id.retry_button;
 			global::DanMacross.Droid.Resource.Id.right = global::DanMacrossSample.Droid.Resource.Id.right;
+			global::DanMacross.Droid.Resource.Id.root = global::DanMacrossSample.Droid.Resource.Id.root;
 			global::DanMacross.Droid.Resource.Id.screen = global::DanMacrossSample.Droid.Resource.Id.screen;
 			global::DanMacross.Droid.Resource.Id.scroll = global::DanMacrossSample.Droid.Resource.Id.scroll;
 			global::DanMacross.Droid.Resource.Id.scrollIndicatorDown = global::DanMacrossSample.Droid.Resource.Id.scrollIndicatorDown;
@@ -852,6 +858,7 @@ namespace DanMacrossSample.Droid
 			global::DanMacross.Droid.Resource.Id.showCustom = global::DanMacrossSample.Droid.Resource.Id.showCustom;
 			global::DanMacross.Droid.Resource.Id.showHome = global::DanMacrossSample.Droid.Resource.Id.showHome;
 			global::DanMacross.Droid.Resource.Id.showTitle = global::DanMacrossSample.Droid.Resource.Id.showTitle;
+			global::DanMacross.Droid.Resource.Id.shutter = global::DanMacrossSample.Droid.Resource.Id.shutter;
 			global::DanMacross.Droid.Resource.Id.snackbar_action = global::DanMacrossSample.Droid.Resource.Id.snackbar_action;
 			global::DanMacross.Droid.Resource.Id.snackbar_text = global::DanMacrossSample.Droid.Resource.Id.snackbar_text;
 			global::DanMacross.Droid.Resource.Id.snap = global::DanMacrossSample.Droid.Resource.Id.snap;
@@ -863,10 +870,13 @@ namespace DanMacrossSample.Droid
 			global::DanMacross.Droid.Resource.Id.start = global::DanMacrossSample.Droid.Resource.Id.start;
 			global::DanMacross.Droid.Resource.Id.status_bar_latest_event_content = global::DanMacrossSample.Droid.Resource.Id.status_bar_latest_event_content;
 			global::DanMacross.Droid.Resource.Id.submit_area = global::DanMacrossSample.Droid.Resource.Id.submit_area;
+			global::DanMacross.Droid.Resource.Id.subtitles = global::DanMacrossSample.Droid.Resource.Id.subtitles;
+			global::DanMacross.Droid.Resource.Id.surface_view = global::DanMacrossSample.Droid.Resource.Id.surface_view;
 			global::DanMacross.Droid.Resource.Id.tabMode = global::DanMacrossSample.Droid.Resource.Id.tabMode;
 			global::DanMacross.Droid.Resource.Id.text = global::DanMacrossSample.Droid.Resource.Id.text;
 			global::DanMacross.Droid.Resource.Id.text2 = global::DanMacrossSample.Droid.Resource.Id.text2;
 			global::DanMacross.Droid.Resource.Id.textSpacerNoButtons = global::DanMacrossSample.Droid.Resource.Id.textSpacerNoButtons;
+			global::DanMacross.Droid.Resource.Id.text_controls = global::DanMacrossSample.Droid.Resource.Id.text_controls;
 			global::DanMacross.Droid.Resource.Id.time = global::DanMacrossSample.Droid.Resource.Id.time;
 			global::DanMacross.Droid.Resource.Id.title = global::DanMacrossSample.Droid.Resource.Id.title;
 			global::DanMacross.Droid.Resource.Id.title_template = global::DanMacrossSample.Droid.Resource.Id.title_template;
@@ -875,6 +885,9 @@ namespace DanMacrossSample.Droid
 			global::DanMacross.Droid.Resource.Id.touch_outside = global::DanMacrossSample.Droid.Resource.Id.touch_outside;
 			global::DanMacross.Droid.Resource.Id.up = global::DanMacrossSample.Droid.Resource.Id.up;
 			global::DanMacross.Droid.Resource.Id.useLogo = global::DanMacrossSample.Droid.Resource.Id.useLogo;
+			global::DanMacross.Droid.Resource.Id.verbose_log_controls = global::DanMacrossSample.Droid.Resource.Id.verbose_log_controls;
+			global::DanMacross.Droid.Resource.Id.video_controls = global::DanMacrossSample.Droid.Resource.Id.video_controls;
+			global::DanMacross.Droid.Resource.Id.video_frame = global::DanMacrossSample.Droid.Resource.Id.video_frame;
 			global::DanMacross.Droid.Resource.Id.view_offset_helper = global::DanMacrossSample.Droid.Resource.Id.view_offset_helper;
 			global::DanMacross.Droid.Resource.Id.volume_item_container = global::DanMacrossSample.Droid.Resource.Id.volume_item_container;
 			global::DanMacross.Droid.Resource.Id.withText = global::DanMacrossSample.Droid.Resource.Id.withText;
@@ -946,6 +959,7 @@ namespace DanMacrossSample.Droid
 			global::DanMacross.Droid.Resource.Layout.select_dialog_multichoice_material = global::DanMacrossSample.Droid.Resource.Layout.select_dialog_multichoice_material;
 			global::DanMacross.Droid.Resource.Layout.select_dialog_singlechoice_material = global::DanMacrossSample.Droid.Resource.Layout.select_dialog_singlechoice_material;
 			global::DanMacross.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::DanMacrossSample.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::DanMacross.Droid.Resource.Layout.videoplayer_layout = global::DanMacrossSample.Droid.Resource.Layout.videoplayer_layout;
 			global::DanMacross.Droid.Resource.String.abc_action_bar_home_description = global::DanMacrossSample.Droid.Resource.String.abc_action_bar_home_description;
 			global::DanMacross.Droid.Resource.String.abc_action_bar_home_description_format = global::DanMacrossSample.Droid.Resource.String.abc_action_bar_home_description_format;
 			global::DanMacross.Droid.Resource.String.abc_action_bar_home_subtitle_description_format = global::DanMacrossSample.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
@@ -966,9 +980,17 @@ namespace DanMacrossSample.Droid
 			global::DanMacross.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::DanMacrossSample.Droid.Resource.String.abc_shareactionprovider_share_with_application;
 			global::DanMacross.Droid.Resource.String.abc_toolbar_collapse_description = global::DanMacrossSample.Droid.Resource.String.abc_toolbar_collapse_description;
 			global::DanMacross.Droid.Resource.String.appbar_scrolling_view_behavior = global::DanMacrossSample.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::DanMacross.Droid.Resource.String.audio = global::DanMacrossSample.Droid.Resource.String.audio;
 			global::DanMacross.Droid.Resource.String.bottom_sheet_behavior = global::DanMacrossSample.Droid.Resource.String.bottom_sheet_behavior;
 			global::DanMacross.Droid.Resource.String.character_counter_pattern = global::DanMacrossSample.Droid.Resource.String.character_counter_pattern;
+			global::DanMacross.Droid.Resource.String.enable_background_audio = global::DanMacrossSample.Droid.Resource.String.enable_background_audio;
+			global::DanMacross.Droid.Resource.String.error_drm_not_supported = global::DanMacrossSample.Droid.Resource.String.error_drm_not_supported;
+			global::DanMacross.Droid.Resource.String.error_drm_unknown = global::DanMacrossSample.Droid.Resource.String.error_drm_unknown;
+			global::DanMacross.Droid.Resource.String.error_drm_unsupported_scheme = global::DanMacrossSample.Droid.Resource.String.error_drm_unsupported_scheme;
 			global::DanMacross.Droid.Resource.String.library_name = global::DanMacrossSample.Droid.Resource.String.library_name;
+			global::DanMacross.Droid.Resource.String.logging = global::DanMacrossSample.Droid.Resource.String.logging;
+			global::DanMacross.Droid.Resource.String.logging_normal = global::DanMacrossSample.Droid.Resource.String.logging_normal;
+			global::DanMacross.Droid.Resource.String.logging_verbose = global::DanMacrossSample.Droid.Resource.String.logging_verbose;
 			global::DanMacross.Droid.Resource.String.mr_button_content_description = global::DanMacrossSample.Droid.Resource.String.mr_button_content_description;
 			global::DanMacross.Droid.Resource.String.mr_chooser_searching = global::DanMacrossSample.Droid.Resource.String.mr_chooser_searching;
 			global::DanMacross.Droid.Resource.String.mr_chooser_title = global::DanMacrossSample.Droid.Resource.String.mr_chooser_title;
@@ -984,7 +1006,11 @@ namespace DanMacrossSample.Droid
 			global::DanMacross.Droid.Resource.String.mr_controller_stop = global::DanMacrossSample.Droid.Resource.String.mr_controller_stop;
 			global::DanMacross.Droid.Resource.String.mr_system_route_name = global::DanMacrossSample.Droid.Resource.String.mr_system_route_name;
 			global::DanMacross.Droid.Resource.String.mr_user_route_category_name = global::DanMacrossSample.Droid.Resource.String.mr_user_route_category_name;
+			global::DanMacross.Droid.Resource.String.off = global::DanMacrossSample.Droid.Resource.String.off;
+			global::DanMacross.Droid.Resource.String.retry = global::DanMacrossSample.Droid.Resource.String.retry;
 			global::DanMacross.Droid.Resource.String.status_bar_notification_info_overflow = global::DanMacrossSample.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::DanMacross.Droid.Resource.String.text = global::DanMacrossSample.Droid.Resource.String.text;
+			global::DanMacross.Droid.Resource.String.video = global::DanMacrossSample.Droid.Resource.String.video;
 			global::DanMacross.Droid.Resource.Style.AlertDialog_AppCompat = global::DanMacrossSample.Droid.Resource.Style.AlertDialog_AppCompat;
 			global::DanMacross.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::DanMacrossSample.Droid.Resource.Style.AlertDialog_AppCompat_Light;
 			global::DanMacross.Droid.Resource.Style.Animation_AppCompat_Dialog = global::DanMacrossSample.Droid.Resource.Style.Animation_AppCompat_Dialog;
@@ -4055,6 +4081,9 @@ namespace DanMacrossSample.Droid
 			// aapt resource value: 0x7f07001e
 			public const int always = 2131165214;
 			
+			// aapt resource value: 0x7f0700a1
+			public const int audio_controls = 2131165345;
+			
 			// aapt resource value: 0x7f07001b
 			public const int beginning = 2131165211;
 			
@@ -4094,11 +4123,17 @@ namespace DanMacrossSample.Droid
 			// aapt resource value: 0x7f07004a
 			public const int contentPanel = 2131165258;
 			
+			// aapt resource value: 0x7f07009f
+			public const int controls_root = 2131165343;
+			
 			// aapt resource value: 0x7f070050
 			public const int custom = 2131165264;
 			
 			// aapt resource value: 0x7f07004f
 			public const int customPanel = 2131165263;
+			
+			// aapt resource value: 0x7f07009e
+			public const int debug_text_view = 2131165342;
 			
 			// aapt resource value: 0x7f070058
 			public const int decor_content_parent = 2131165272;
@@ -4301,6 +4336,9 @@ namespace DanMacrossSample.Droid
 			// aapt resource value: 0x7f070029
 			public const int pin = 2131165225;
 			
+			// aapt resource value: 0x7f07009d
+			public const int player_state_view = 2131165341;
+			
 			// aapt resource value: 0x7f070006
 			public const int progress_circular = 2131165190;
 			
@@ -4310,8 +4348,14 @@ namespace DanMacrossSample.Droid
 			// aapt resource value: 0x7f070054
 			public const int radio = 2131165268;
 			
+			// aapt resource value: 0x7f0700a4
+			public const int retry_button = 2131165348;
+			
 			// aapt resource value: 0x7f070030
 			public const int right = 2131165232;
+			
+			// aapt resource value: 0x7f070098
+			public const int root = 2131165336;
 			
 			// aapt resource value: 0x7f070017
 			public const int screen = 2131165207;
@@ -4376,6 +4420,9 @@ namespace DanMacrossSample.Droid
 			// aapt resource value: 0x7f070013
 			public const int showTitle = 2131165203;
 			
+			// aapt resource value: 0x7f07009b
+			public const int shutter = 2131165339;
+			
 			// aapt resource value: 0x7f07006c
 			public const int snackbar_action = 2131165292;
 			
@@ -4409,6 +4456,12 @@ namespace DanMacrossSample.Droid
 			// aapt resource value: 0x7f070065
 			public const int submit_area = 2131165285;
 			
+			// aapt resource value: 0x7f07009c
+			public const int subtitles = 2131165340;
+			
+			// aapt resource value: 0x7f07009a
+			public const int surface_view = 2131165338;
+			
 			// aapt resource value: 0x7f07000d
 			public const int tabMode = 2131165197;
 			
@@ -4420,6 +4473,9 @@ namespace DanMacrossSample.Droid
 			
 			// aapt resource value: 0x7f07004d
 			public const int textSpacerNoButtons = 2131165261;
+			
+			// aapt resource value: 0x7f0700a2
+			public const int text_controls = 2131165346;
 			
 			// aapt resource value: 0x7f070091
 			public const int time = 2131165329;
@@ -4444,6 +4500,15 @@ namespace DanMacrossSample.Droid
 			
 			// aapt resource value: 0x7f070014
 			public const int useLogo = 2131165204;
+			
+			// aapt resource value: 0x7f0700a3
+			public const int verbose_log_controls = 2131165347;
+			
+			// aapt resource value: 0x7f0700a0
+			public const int video_controls = 2131165344;
+			
+			// aapt resource value: 0x7f070099
+			public const int video_frame = 2131165337;
 			
 			// aapt resource value: 0x7f07000a
 			public const int view_offset_helper = 2131165194;
@@ -4697,6 +4762,9 @@ namespace DanMacrossSample.Droid
 			// aapt resource value: 0x7f030036
 			public const int support_simple_spinner_dropdown_item = 2130903094;
 			
+			// aapt resource value: 0x7f030037
+			public const int videoplayer_layout = 2130903095;
+			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -4770,14 +4838,38 @@ namespace DanMacrossSample.Droid
 			// aapt resource value: 0x7f080023
 			public const int appbar_scrolling_view_behavior = 2131230755;
 			
+			// aapt resource value: 0x7f080029
+			public const int audio = 2131230761;
+			
 			// aapt resource value: 0x7f080024
 			public const int bottom_sheet_behavior = 2131230756;
 			
 			// aapt resource value: 0x7f080025
 			public const int character_counter_pattern = 2131230757;
 			
+			// aapt resource value: 0x7f080027
+			public const int enable_background_audio = 2131230759;
+			
+			// aapt resource value: 0x7f080030
+			public const int error_drm_not_supported = 2131230768;
+			
+			// aapt resource value: 0x7f080032
+			public const int error_drm_unknown = 2131230770;
+			
+			// aapt resource value: 0x7f080031
+			public const int error_drm_unsupported_scheme = 2131230769;
+			
 			// aapt resource value: 0x7f080026
 			public const int library_name = 2131230758;
+			
+			// aapt resource value: 0x7f08002b
+			public const int logging = 2131230763;
+			
+			// aapt resource value: 0x7f08002c
+			public const int logging_normal = 2131230764;
+			
+			// aapt resource value: 0x7f08002d
+			public const int logging_verbose = 2131230765;
 			
 			// aapt resource value: 0x7f080000
 			public const int mr_button_content_description = 2131230720;
@@ -4824,8 +4916,20 @@ namespace DanMacrossSample.Droid
 			// aapt resource value: 0x7f08000e
 			public const int mr_user_route_category_name = 2131230734;
 			
+			// aapt resource value: 0x7f08002f
+			public const int off = 2131230767;
+			
+			// aapt resource value: 0x7f08002e
+			public const int retry = 2131230766;
+			
 			// aapt resource value: 0x7f080022
 			public const int status_bar_notification_info_overflow = 2131230754;
+			
+			// aapt resource value: 0x7f08002a
+			public const int text = 2131230762;
+			
+			// aapt resource value: 0x7f080028
+			public const int video = 2131230760;
 			
 			static String()
 			{

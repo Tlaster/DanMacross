@@ -46,5 +46,28 @@ namespace DanMacross
             set { SetValue(AutoPlayProperty, value); }
         }
 
+        public static readonly BindableProperty PositionProperty = BindableProperty.Create(
+            propertyName: "Position",
+            returnType: typeof(TimeSpan),
+            declaringType: typeof(VideoPlayer),
+            defaultValue: new TimeSpan());
+
+        public TimeSpan Position
+        {
+            get { return (TimeSpan)GetValue(PositionProperty); }
+            set { SetValue(PositionProperty, value); }
+        }
+
+        public static readonly BindableProperty VolumeProperty = BindableProperty.Create(
+            propertyName: "Volume",
+            returnType: typeof(double),
+            declaringType: typeof(VideoPlayer),
+            defaultValue: 1.0);
+        
+        public double Volume
+        {
+            get { return (double)GetValue(VolumeProperty); }
+            set { SetValue(VolumeProperty, value); }
+        }
     }
 }
