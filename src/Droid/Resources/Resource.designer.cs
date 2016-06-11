@@ -2262,9 +2262,6 @@ namespace DanMacross.Droid
 			// aapt resource value: 0x7f07001e
 			public static int always = 2131165214;
 			
-			// aapt resource value: 0x7f0700a1
-			public static int audio_controls = 2131165345;
-			
 			// aapt resource value: 0x7f07001b
 			public static int beginning = 2131165211;
 			
@@ -2304,17 +2301,11 @@ namespace DanMacross.Droid
 			// aapt resource value: 0x7f07004a
 			public static int contentPanel = 2131165258;
 			
-			// aapt resource value: 0x7f07009f
-			public static int controls_root = 2131165343;
-			
 			// aapt resource value: 0x7f070050
 			public static int custom = 2131165264;
 			
 			// aapt resource value: 0x7f07004f
 			public static int customPanel = 2131165263;
-			
-			// aapt resource value: 0x7f07009e
-			public static int debug_text_view = 2131165342;
 			
 			// aapt resource value: 0x7f070058
 			public static int decor_content_parent = 2131165272;
@@ -2517,9 +2508,6 @@ namespace DanMacross.Droid
 			// aapt resource value: 0x7f070029
 			public static int pin = 2131165225;
 			
-			// aapt resource value: 0x7f07009d
-			public static int player_state_view = 2131165341;
-			
 			// aapt resource value: 0x7f070006
 			public static int progress_circular = 2131165190;
 			
@@ -2529,14 +2517,8 @@ namespace DanMacross.Droid
 			// aapt resource value: 0x7f070054
 			public static int radio = 2131165268;
 			
-			// aapt resource value: 0x7f0700a4
-			public static int retry_button = 2131165348;
-			
 			// aapt resource value: 0x7f070030
 			public static int right = 2131165232;
-			
-			// aapt resource value: 0x7f070098
-			public static int root = 2131165336;
 			
 			// aapt resource value: 0x7f070017
 			public static int screen = 2131165207;
@@ -2601,9 +2583,6 @@ namespace DanMacross.Droid
 			// aapt resource value: 0x7f070013
 			public static int showTitle = 2131165203;
 			
-			// aapt resource value: 0x7f07009b
-			public static int shutter = 2131165339;
-			
 			// aapt resource value: 0x7f07006c
 			public static int snackbar_action = 2131165292;
 			
@@ -2637,12 +2616,6 @@ namespace DanMacross.Droid
 			// aapt resource value: 0x7f070065
 			public static int submit_area = 2131165285;
 			
-			// aapt resource value: 0x7f07009c
-			public static int subtitles = 2131165340;
-			
-			// aapt resource value: 0x7f07009a
-			public static int surface_view = 2131165338;
-			
 			// aapt resource value: 0x7f07000d
 			public static int tabMode = 2131165197;
 			
@@ -2654,9 +2627,6 @@ namespace DanMacross.Droid
 			
 			// aapt resource value: 0x7f07004d
 			public static int textSpacerNoButtons = 2131165261;
-			
-			// aapt resource value: 0x7f0700a2
-			public static int text_controls = 2131165346;
 			
 			// aapt resource value: 0x7f070091
 			public static int time = 2131165329;
@@ -2681,15 +2651,6 @@ namespace DanMacross.Droid
 			
 			// aapt resource value: 0x7f070014
 			public static int useLogo = 2131165204;
-			
-			// aapt resource value: 0x7f0700a3
-			public static int verbose_log_controls = 2131165347;
-			
-			// aapt resource value: 0x7f0700a0
-			public static int video_controls = 2131165344;
-			
-			// aapt resource value: 0x7f070099
-			public static int video_frame = 2131165337;
 			
 			// aapt resource value: 0x7f07000a
 			public static int view_offset_helper = 2131165194;
@@ -2943,9 +2904,6 @@ namespace DanMacross.Droid
 			// aapt resource value: 0x7f030036
 			public static int support_simple_spinner_dropdown_item = 2130903094;
 			
-			// aapt resource value: 0x7f030037
-			public static int videoplayer_layout = 2130903095;
-			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -3019,38 +2977,14 @@ namespace DanMacross.Droid
 			// aapt resource value: 0x7f080023
 			public static int appbar_scrolling_view_behavior = 2131230755;
 			
-			// aapt resource value: 0x7f080029
-			public static int audio = 2131230761;
-			
 			// aapt resource value: 0x7f080024
 			public static int bottom_sheet_behavior = 2131230756;
 			
 			// aapt resource value: 0x7f080025
 			public static int character_counter_pattern = 2131230757;
 			
-			// aapt resource value: 0x7f080027
-			public static int enable_background_audio = 2131230759;
-			
-			// aapt resource value: 0x7f080030
-			public static int error_drm_not_supported = 2131230768;
-			
-			// aapt resource value: 0x7f080032
-			public static int error_drm_unknown = 2131230770;
-			
-			// aapt resource value: 0x7f080031
-			public static int error_drm_unsupported_scheme = 2131230769;
-			
 			// aapt resource value: 0x7f080026
 			public static int library_name = 2131230758;
-			
-			// aapt resource value: 0x7f08002b
-			public static int logging = 2131230763;
-			
-			// aapt resource value: 0x7f08002c
-			public static int logging_normal = 2131230764;
-			
-			// aapt resource value: 0x7f08002d
-			public static int logging_verbose = 2131230765;
 			
 			// aapt resource value: 0x7f080000
 			public static int mr_button_content_description = 2131230720;
@@ -3097,20 +3031,8 @@ namespace DanMacross.Droid
 			// aapt resource value: 0x7f08000e
 			public static int mr_user_route_category_name = 2131230734;
 			
-			// aapt resource value: 0x7f08002f
-			public static int off = 2131230767;
-			
-			// aapt resource value: 0x7f08002e
-			public static int retry = 2131230766;
-			
 			// aapt resource value: 0x7f080022
 			public static int status_bar_notification_info_overflow = 2131230754;
-			
-			// aapt resource value: 0x7f08002a
-			public static int text = 2131230762;
-			
-			// aapt resource value: 0x7f080028
-			public static int video = 2131230760;
 			
 			static String()
 			{

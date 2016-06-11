@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView 
+  xmlns="http://xamarin.com/schemas/2014/forms"
+  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+  x:Class="DanMacross.MediaElement"
+  xmlns:iconize="clr-namespace:FormsPlugin.Iconize;assembly=FormsPlugin.Iconize"
+  xmlns:local="clr-namespace:DanMacross;assembly=DanMacross"
+  >
+  <ContentView.Resources>
+    <ResourceDictionary>
+      <GridLength x:Key="BottomControlGridHeight">50</GridLength>
+      <OnPlatform x:Key="BottomControlHeight" x:TypeArguments="x:Double" iOS="50" Android="30" WinPhone="50" />
+      <x:Double x:Key="IconFontSize">30</x:Double>
+    </ResourceDictionary>
+  </ContentView.Resources>
+  <ContentView.Content>
+    <Grid>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="{StaticResource BottomControlGridHeight}"/>
+      </Grid.RowDefinitions>
+      <local:VideoPlayer Source="{Binding Source,Mode=OneWay}" CurrentState="{Binding CurrentState,Mode=OneWay}" AutoPlay="{Binding AutoPlay,Mode=OneWay}" IsFullScreen="{Binding IsFullScreen,Mode=OneWay}" Grid.RowSpan="2" x:Name="videoPlayer"></local:VideoPlayer>
+      <Grid Grid.Row="1" Padding="4" BackgroundColor="#CCAAAAAA">
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="{StaticResource BottomControlGridHeight}"/>
+          <ColumnDefinition Width="*"/>
+          <ColumnDefinition Width="auto"/>
+          <ColumnDefinition Width="auto"/>
+          <ColumnDefinition Width="auto"/>
+        </Grid.ColumnDefinitions>
+        <iconize:IconButton Clicked="PlayButtonClicked" x:Name="PlayerButton" HorizontalOptions="Center" TextColor="White" VerticalOptions="Center" FontSize="{StaticResource IconFontSize}" Text="fa-play-circle-o" WidthRequest="{StaticResource BottomControlHeight}" HeightRequest="{StaticResource BottomControlHeight}" />
+        <Slider BindingContext="{x:Reference videoPlayer}" VerticalOptions="Center" HeightRequest="{StaticResource BottomControlHeight}" Grid.Column="1" Minimum="-1" Maximum="{Binding Path=Duration.TotalSeconds,Mode=OneWay}" Value="{Binding Path=Position.TotalSeconds,Mode=TwoWay}"/>
+        <iconize:IconButton Clicked="VolumeButtonClicked" Grid.Column="2" Text="fa-volume-up" HorizontalOptions="Center" VerticalOptions="Center" TextColor="White" FontSize="{StaticResource IconFontSize}" WidthRequest="{StaticResource BottomControlHeight}" HeightRequest="{StaticResource BottomControlHeight}"/>
+        <iconize:IconButton Grid.Column="3" Text="fa-expand" HorizontalOptions="Center" VerticalOptions="Center" TextColor="White" FontSize="{StaticResource IconFontSize}" WidthRequest="{StaticResource BottomControlHeight}" HeightRequest="{StaticResource BottomControlHeight}"/>
+      </Grid>
+      <Grid x:Name="VolumeControl" Opacity="0" IsVisible="False" HeightRequest="40" BackgroundColor="#CCAAAAAA" Margin="0,-6,4,-14" Padding="12" HorizontalOptions="End" VerticalOptions="End">
+        <Slider VerticalOptions="Center" BindingContext="{x:Reference videoPlayer}" WidthRequest="150" Maximum="1" Minimum="0" Value="{Binding Volume,Mode=TwoWay}"></Slider>
+      </Grid>
+    </Grid>
+  </ContentView.Content>
+</ContentView>

@@ -9,6 +9,6 @@
     <Import_RootNamespace>DanMacross.Shared</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)DanMacrossInit.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Initialization.cs" />
   </ItemGroup>
 </Project>

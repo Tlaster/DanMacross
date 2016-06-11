@@ -66,7 +66,7 @@ namespace DanMacrossSample.UWP
                 Window.Current.Content = rootFrame;
             }
             
-            DanMacross.DanMacrossInit.Init();
+            DanMacross.Initialization.Init();
             Xamarin.Forms.Forms.Init(e);
 
             if (e.PrelaunchActivated == false)

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DanMacross.Entities;
+using FormsPlugin.Iconize;
 using Xamarin.Forms;
 
 namespace DanMacross
@@ -13,6 +15,7 @@ namespace DanMacross
             propertyName: "Source",
             returnType: typeof(string),
             declaringType: typeof(VideoPlayer),
+            defaultBindingMode: BindingMode.OneWay,
             defaultValue: null);
 
         public string Source
@@ -50,12 +53,24 @@ namespace DanMacross
             propertyName: "Position",
             returnType: typeof(TimeSpan),
             declaringType: typeof(VideoPlayer),
-            defaultValue: new TimeSpan());
+            defaultValue: TimeSpan.FromSeconds(0));
 
         public TimeSpan Position
         {
             get { return (TimeSpan)GetValue(PositionProperty); }
             set { SetValue(PositionProperty, value); }
+        }
+
+        public static readonly BindableProperty DurationProperty = BindableProperty.Create(
+            propertyName: "Duration",
+            returnType: typeof(TimeSpan),
+            declaringType: typeof(VideoPlayer),
+            defaultValue: TimeSpan.FromSeconds(100));
+
+        public TimeSpan Duration
+        {
+            get { return (TimeSpan)GetValue(DurationProperty); }
+            set { SetValue(DurationProperty, value); }
         }
 
         public static readonly BindableProperty VolumeProperty = BindableProperty.Create(
@@ -69,5 +84,19 @@ namespace DanMacross
             get { return (double)GetValue(VolumeProperty); }
             set { SetValue(VolumeProperty, value); }
         }
+
+
+        public static readonly BindableProperty CurrentStateProperty = BindableProperty.Create(
+            propertyName: "CurrentState",
+            returnType: typeof(PlaybackState),
+            declaringType: typeof(VideoPlayer),
+            defaultValue: PlaybackState.Pause);
+
+        public PlaybackState CurrentState
+        {
+            get { return (PlaybackState)GetValue(CurrentStateProperty); }
+            set { SetValue(CurrentStateProperty, value); }
+        }
+
     }
 }

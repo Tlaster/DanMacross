@@ -16,7 +16,7 @@ namespace DanMacrossSample.Droid
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
-            DanMacross.DanMacrossInit.Init();
+            DanMacross.Initialization.Init();
 
             global::Xamarin.Forms.Forms.Init (this, bundle);
 
