@@ -36,6 +36,7 @@ namespace DanMacross.UWP.Renderer
             {
                 Control.Stop();
                 _timer.Stop();
+                _timer = null;
             }
             if (e.NewElement != null)
             {

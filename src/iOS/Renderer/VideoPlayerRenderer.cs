@@ -97,7 +97,6 @@ namespace DanMacross.iOS.Renderer
                     _player.Volume = Convert.ToSingle(Element.Volume);
                     break;
                 case nameof(Element.IsFullScreen):
-                    
                     break;
                 case nameof(Element.CurrentState):
                     switch (Element.CurrentState)

@@ -1,9 +1,9 @@
 ﻿{
   "dependencies": {
-    "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
+    "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.2",
     "Xam.FormsPlugin.Iconize": "1.0.10",
     "Xam.Plugin.Iconize.FontAwesome": "1.0.10",
-    "Xamarin.Forms": "2.2.0.45"
+    "Xamarin.Forms": "2.3.0.107"
   },
   "frameworks": {
     "uap10.0": {}
